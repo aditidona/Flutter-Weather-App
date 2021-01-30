@@ -13,7 +13,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     bool _serviceEnabled;
     PermissionStatus _permissionGranted;
     LocationData _locationData;
-
+    //check if location access is provided
     _serviceEnabled = await location.serviceEnabled();
     if (!_serviceEnabled) {
       _serviceEnabled = await location.requestService();
@@ -21,7 +21,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         return;
       }
     }
-
+    //check if user has provided permission to access location
     _permissionGranted = await location.hasPermission();
     if (_permissionGranted == PermissionStatus.denied) {
       _permissionGranted = await location.requestPermission();
@@ -29,7 +29,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         return;
       }
     }
-
+    //get location
     _locationData = await location.getLocation();
 
     print(_locationData);
