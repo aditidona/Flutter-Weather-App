@@ -1,5 +1,5 @@
 # Clima:smile: The Weather App
-[!Screenshot]clima-demo.gif
+![Screenshot]clima-demo.gif
 
 ## Flutter Libraries Used:
     1. Location
