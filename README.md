@@ -1,16 +1,18 @@
-# clima_weather_flutter
+# Clima :smile:
 
-A new Flutter application.
+A Weather App
 
-## Getting Started
+## Learnings
+    1. Location Package:
+        [Flutter Location package](https://pub.dev/packages/location/) to get current location coordinates. The geolocator package was too slow to get the output.
+    2. Stateful widget Lifecycle
+        1. There are three stages in the lifecycle. 
+            1. **Init**: which is called as soon as the stateful widget is created and added into the tree.
+            2. **Build**: This is called when the stateful widget is build
+            3. **Deactivate**: this is called when the stateful widget is destroyed.
+    3. 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+    
+    
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
