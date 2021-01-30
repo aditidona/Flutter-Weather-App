@@ -1,5 +1,5 @@
 # Clima:smile: The Weather App
-![Finished App]clima-demo.gif
+![Finished App](https://github.com/aditidona/Flutter-Weather-App/blob/main/clima-demo.gif)
 
 ## Flutter Libraries Used:
     1. Location
